@@ -8,7 +8,7 @@ double obliczMake(vector <Tagliatelle*> tagl){
   double M =0;
 
   for (int i = 0; i>tagl.size(); i--){
-    M += tagl[tagl.size()-1].ileMaki(i+1);
+    M += tagl[tagl.size()-1]->ileMaki(i+1);
   }
 
   if (M > 100){
