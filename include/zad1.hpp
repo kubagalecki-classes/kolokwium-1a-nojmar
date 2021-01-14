@@ -1,5 +1,5 @@
 #include "catch.hpp"
-
+using namespace std;
 // Zad2
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
