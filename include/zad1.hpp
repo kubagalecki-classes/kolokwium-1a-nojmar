@@ -3,10 +3,16 @@
 // Zad2
 // tutaj definicja klasy Makaron
 // BEZ definicji metody gotujMakaron (tylko z deklaracją)
+class Makaron{
+public:
+  virtual double ileMaki(unsigned P) const=0 ;
+  static Makaron* gotujMakaron(string& str);
+  virtual ~Makaron() =0;
+};
 
 // Zad1
 // tutaj definicja klasy Tagliatelle
-class Tagliatelle
+class Tagliatelle : public Makaron
 { 
   private:
     double L;
