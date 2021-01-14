@@ -6,7 +6,7 @@
 class Makaron{
 public:
   virtual double ileMaki(unsigned P) const=0 ;
-  static Makaron* gotujMakaron(string& str);
+  static Makaron* gotujMakaron(const string& str);
   virtual ~Makaron() =0;
 };
 
