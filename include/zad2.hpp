@@ -16,7 +16,7 @@ class Penne: public Makaron
 
 };
 // tutaj definicja metody gotujMakaron
-static Makaron*  Makaron::gotujMakaron( const string& str ){
+ Makaron*  Makaron::gotujMakaron( const string& str ){
  
   if  (str.front() == str.back()){
     return new Tagliatelle(3.14, 0.42, 0.1);
