@@ -1,4 +1,5 @@
 #include "catch.hpp"
+#include <string>
 using namespace std;
 // Zad2
 // tutaj definicja klasy Makaron
